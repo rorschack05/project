@@ -12,6 +12,8 @@ import { SearchComponent } from './container/product-list/search/search.componen
 import { MainMenuComponent } from './header/main-menu/main-menu.component';
 import { TopMenuComponent } from './header/top-menu/top-menu.component';
 import { FormsModule } from '@angular/forms';
+import { FilterComponent } from './container/product-list/filter/filter.component';
+import { ProductDetailComponent } from './container/product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { FormsModule } from '@angular/forms';
     ProductComponent,
     SearchComponent,
     MainMenuComponent,
-    TopMenuComponent
+    TopMenuComponent,
+    FilterComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,
