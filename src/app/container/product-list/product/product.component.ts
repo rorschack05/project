@@ -7,7 +7,9 @@ import { Product } from 'src/app/Models/product';
 })
 export class ProductComponent {
 
+  
 
   @Input()
   product: Product;
+  
 }

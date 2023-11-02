@@ -543,5 +543,6 @@ selectedFilterRadioButton:string='all'
 onFilterChanged(value:string){
 this.selectedFilterRadioButton = value;
 }
+prod:Product
 
 }
